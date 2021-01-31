@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+
+.container-fluid {
+  background-image: url("../../assets/IMG_1309_edit.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: fixed;
+}
+
+h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: rgb(80, 76, 76);
+  font-size: 60px;
+  line-height: 50px;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  
+  
+}
+
+  /* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 270px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f8f0f0;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #36686e;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .wrapper {
+	text-align: left;
+	h2 {
+        font-family: 'Bodoni Moda', serif;
+        color: rgb(53, 56, 56);
+        line-height: 50px;
+        margin: 0;
+        padding: 10px;
+        position: relative;
+        text-align: left;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 700;
+		background: linear-gradient(to right,#6a7475 10%, #9eb8bb 50%, #19525c 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+}
